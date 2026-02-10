@@ -1,6 +1,6 @@
 # OpenGL 3D Model Renderer
 
-This project is an OpenGL-based 3D model renderer that supports GLTF/GLB formats, with VRM format support under development. It is designed for digital human projects and references official GLTF examples. Suitable for learning and communication purposes.
+This project is an OpenGL-based 3D model renderer written in C++ for optimal performance. It supports both physically-based rendering (PBR) and traditional rendering techniques. The renderer supports GLTF/GLB formats, with VRM format support under development. It is designed for digital human projects and references official GLTF examples. Suitable for learning and communication purposes.
 
 tinygltf 使用了子仓
 cd 到 app/src/main/cpp/third_party/tinygltf
