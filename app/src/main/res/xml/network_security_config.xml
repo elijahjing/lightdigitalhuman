@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 允许特定IP的明文通信 -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">11.152.86.18</domain>
+        <domain includeSubdomains="true">dialog.agent.trpc.ws.gltfdata.polaris</domain>
+    </domain-config>
+
+    <!-- 🔥 调试期间允许所有HTTP明文通信 -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>
